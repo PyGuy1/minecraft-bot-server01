@@ -4,6 +4,6 @@
   "main": "mc-bot-server.js",
   "license": "MIT",
   "dependencies": {
-    "bedrock-protocol": "latest"
+    "@minecraft/bedrock-protocol-xbox": "latest"
   }
 }
