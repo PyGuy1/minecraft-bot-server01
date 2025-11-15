@@ -1,7 +1,7 @@
 {
   "name": "bedrock-afk-bot",
   "version": "1.0.0",
-  "main": "bot.js",
+  "main": "mc-bot-server.js",
   "license": "MIT",
   "dependencies": {
     "bedrock-protocol": "latest"
