@@ -1,9 +1,12 @@
 {
-  "name": "bedrock-afk-bot",
+  "name": "minecraft-bedrock-afkbot",
   "version": "1.0.0",
   "main": "mc-bot-server.js",
   "license": "MIT",
   "dependencies": {
-    "@minecraft/bedrock-protocol-xbox": "latest"
+    "bedrock-protocol": "^3.50.0"
+  },
+  "scripts": {
+    "start": "node mc-bot-server.js"
   }
 }
