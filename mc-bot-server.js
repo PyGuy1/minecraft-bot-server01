@@ -1,4 +1,8 @@
 const { createClient } = require('bedrock-protocol');
+const http = require("http");
+http.createServer((req, res) => {
+  res.end("Bot is running");
+}).listen(process.env.PORT || 10000);
 
 const SERVER_IP = 'MC_Player110.aternos.me';
 const SERVER_PORT = 31682;
