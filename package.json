@@ -4,7 +4,7 @@
   "main": "mc-bot-server.js",
   "license": "MIT",
   "dependencies": {
-    "bedrock-protocol": "^3.51.0"
+    "bedrock-protocol": "3.51.0"
   },
   "scripts": {
     "start": "node mc-bot-server.js"
