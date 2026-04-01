@@ -15,7 +15,9 @@ function start() {
     host: SERVER_IP,
     port: SERVER_PORT,
     username: BOT_NAME,
-    offline: true,       // IMPORTANT: offline mode for Aternos with Online Mode OFF
+    offline: true,
+    skipPing: true,
+    // IMPORTANT: offline mode for Aternos with Online Mode OFF
     // protocolVersion: 582, // (optional) pin version if needed, otherwise leave out
   });
 
